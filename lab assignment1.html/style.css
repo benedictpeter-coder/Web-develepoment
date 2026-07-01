@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body{
+    background-color: #f4f6f8;
+    line-height: 1.6;
+    padding: 20px;
+    /*background-image: url("background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;*/
+}
+.navbar{
+ display:flex;
+ justify-content:center;
+ gap:30px;
+ background:navy;
+ padding:20px;
+ border-radius:10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+.menu{
+    background-color: navy;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a{
+    
+    margin: 10px;
+    font-weight: bold;
+    font-size:18px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+/* Visited Link */
+a:visited{  
+    color: #ddd;
+}
+
+/* Mouse Over Link */
+a:hover{
+    color: yellow;
+    transition:0.3s;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Active Link */
+a:active{
+    color: red;
+}
+
+.menu a:hover{
+    color: yellow;
+}
+form{
+ background:white;
+ width:60%;
+ margin:auto;
+ padding:30px;
+ border-radius:10px;
+ box-shadow:0 0 10px gray;
+}
+
+input, textarea, select{
+ width:100%;
+ padding:10px;
+ margin-bottom:15px;
+}
+
+.container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darkgreen;
+}
+
+
+
+#mainHeading{
+    color: darkblue;
+}
+
+#bookTitle{
+    color: darkgreen;
+}
+
+#registerHeading{
+    color: purple;
+}
+
+#contactHeading{
+    color: brown;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #0077cc;
+    border-radius: 5px;
+}
+
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+
+
+h2, h3{
+    color: #333;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: navy;
+    color: white;
+}
+.flip-card{
+ width:250px;
+ height:300px;
+ transition:0.5s;
+}
+
+.flip-card:hover{
+ transform:scale(1.1);
+}

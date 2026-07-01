@@ -1,0 +1,52 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package helloworld;
+
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class MyFirstJavaFXApp extends Application {
+   public MyFirstJavaFXApp() {
+   }
+
+   public static void main(String[] var0) {
+      launch(var0);
+   }
+
+   public void start(Stage var1) {
+      Text var2 = new Text("First Name");
+      Text var3 = new Text("Password");
+      TextField var4 = new TextField();
+      PasswordField var5 = new PasswordField();
+      Button var6 = new Button("Register Me");
+      Button var7 = new Button("Decline");
+      GridPane var8 = new GridPane();
+      var8.setMinSize((double)400.0F, (double)200.0F);
+      var8.setPadding(new Insets((double)10.0F, (double)10.0F, (double)10.0F, (double)10.0F));
+      var8.setVgap((double)5.0F);
+      var8.setHgap((double)5.0F);
+      var8.setAlignment(Pos.CENTER);
+      var8.add(var2, 0, 0);
+      var8.add(var4, 1, 0);
+      var8.add(var3, 0, 1);
+      var8.add(var5, 1, 1);
+      var8.add(var6, 0, 2);
+      var8.add(var7, 1, 2);
+      var6.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
+      var7.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
+      var2.setStyle("-fx-font: normal bold 20px 'serif' ");
+      var3.setStyle("-fx-font: normal bold 20px 'serif' ");
+      var8.setStyle("-fx-background-color: BEIGE;");
+      Scene var9 = new Scene(var8);
+      var1.setTitle("My First JavaFX GUI");
+      var1.setScene(var9);
+      var1.show();
+   }
+}
