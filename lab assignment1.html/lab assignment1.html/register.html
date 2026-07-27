@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+<h1>Customer Registration</h1>
+
+<nav class="navbar">
+ <a href="index.html">Home</a>
+ <a href="books.html">Books</a>
+ <a href="register.html">Register</a>
+ <a href="gallery.html">Gallery</a>
+ <a href="contact.html">Contact</a>
+</nav>
+<hr>
+
+<form>
+
+<label>Full Name:</label><br>
+<input type="text"><br><br>
+
+<label>Email:</label><br>
+<input type="email"><br><br>
+
+<label>Password:</label><br>
+<input type="password"><br><br>
+
+<label>Gender:</label><br>
+
+<input type="radio" name="gender">
+Male
+
+<input type="radio" name="gender">
+Female
+
+<br><br>
+
+<label>Favourite Category:</label><br>
+
+<input type="checkbox">
+Technology
+
+<input type="checkbox">
+Business
+
+<input type="checkbox">
+Science
+
+<br><br>
+
+<label>Country:</label><br>
+
+<select>
+<option>Kenya</option>
+<option>Uganda</option>
+<option>Tanzania</option>
+<option>Rwanda</option>
+</select>
+
+<br><br>
+
+<label>Comments:</label><br>
+
+<textarea rows="5" cols="30"></textarea>
+
+<br><br>
+
+<input type="submit" class="btn" value="Register">
+
+<input type="reset" class="btn" value="Clear">
+<form onsubmit="return validateForm()">
+
+<label>Name</label>
+<input type="text" id="name">
+
+<label>Email</label>
+<input type="email" id="email">
+
+<label>Phone</label>
+<input type="text" id="phone">
+
+<input type="submit" class="btn" value="Register">
+
+</form>
+
+</form>
+
+</body>
+</html>
